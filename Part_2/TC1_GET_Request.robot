@@ -12,6 +12,7 @@ ${zip_code}        33160
 *** Test Cases ***
 TC_001_Get_Request
     Create Session        My_session                ${base_url}
+    # Get Request is Depcerated    
     # ${response}=        Get Request               My_session    ${zip_code}
     # expected_status     200 / 201 / 404 / any
     ${response}=          GET On Session             My_session    ${zip_code}    expected_status=any
