@@ -4,7 +4,7 @@ Library    RequestsLibrary
 
 *** Variables ***
 ${Base_URL}        http://thetestingworldapi.com/
-${StudentID}       8504181
+${StudentID}       8529222
 # https://thetestingworldapi.com/api/studentsDetails (look example ID from here)
 
 *** Test Cases ***
