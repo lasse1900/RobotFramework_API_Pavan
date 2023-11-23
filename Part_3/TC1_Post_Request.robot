@@ -10,7 +10,7 @@ ${base_url}        https://thetestingworldapi.com/api/studentsDetails
 *** Test Cases ***
 PUT_StudentRegistration
     Create Session    mysession    ${base_url}
-    ${body}=        Create Dictionary    first_name=Kalle  middle_name=Olli  last_name=Ojala  date_of_birth=12/09/2001
+    ${body}=        Create Dictionary    first_name=Samuel  middle_name=Olli  last_name=Jackson  date_of_birth=10/09/2005
     ${header}=      Create Dictionary    Content-Type=application/json
     # Post Request is deprecated
     # ${response}=    Post Request    mysession    /    data=${body}    headers=${header}
