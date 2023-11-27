@@ -7,3 +7,5 @@
 
 - used .venv
 - pip install -r requirements.txt
+- while updating libraries, remember to run: pip freeze > requirements.txt
+  
